@@ -1,0 +1,15 @@
+# First Unique Character API
+
+This project implements a Node.js server with an API endpoint to find the first unique character in a given string. The server processes incoming JSON requests and returns the result along with metadata such as the character's index and a timestamp.
+
+## Features
+
+- **Find First Unique Character:** 
+  Identifies the first non-repeating character in a string and returns its index.
+- **Input Validation:** 
+  Ensures the input is a valid string.
+- **Timestamp:** 
+  Adds an ISO8601-compliant timestamp to the response.
+- **Logging:** 
+  Logs every API call with the input and timestamp.
+
