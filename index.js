@@ -18,7 +18,7 @@ app.post("/first-unique-character", async (req, res) => {
     const index = findFirstUniqueChar(text_to_process);
     
   const response = {
-    first_unique_char: index !== -1 ? text_to_process[index] : null,
+    first_unique_char: index !== -1 ? text_to_process[index] : -1,
     first_unique_char_index: index,
     timestamp: new Date().toISOString(),
   };
